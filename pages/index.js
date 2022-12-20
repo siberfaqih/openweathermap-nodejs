@@ -71,7 +71,7 @@ export default function Home() {
               <table className="table mt-5 table-primary">
                 <tbody>
                   <tr>
-                    <td className="text-center" colspan="2"><Img src={`http://openweathermap.org/img/wn/`+ response.weather[0].icon + `@2x.png`}/></td>
+                    <td className="text-center" colspan="2"><Image src={`http://openweathermap.org/img/wn/`+ response.weather[0].icon + `@2x.png`}/></td>
                   </tr>
                   <tr>
                     <th scope="col">Temperature</th>
