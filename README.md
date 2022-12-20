@@ -32,3 +32,5 @@ This is an example weather data app used in the Openweathermap API [quickstart t
 
    ```bash
    $ npm run dev
+   ```
+You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! 
