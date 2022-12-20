@@ -71,7 +71,7 @@ export default function Home() {
               <table className="table mt-5 table-primary">
                 <tbody>
                   <tr>
-                    <td className="text-center" colspan="2"><img src={`http://openweathermap.org/img/wn/`+ response.weather[0].icon + `@2x.png`}/></td>
+                    <td className="text-center" colspan="2"><Img src={`http://openweathermap.org/img/wn/`+ response.weather[0].icon + `@2x.png`}/></td>
                   </tr>
                   <tr>
                     <th scope="col">Temperature</th>
@@ -97,6 +97,7 @@ export default function Home() {
             Made by siberfaqih -{" "}
             <a
               target="_blank"
+	      rel="noreferrer"
               className="hover:text-active"
               href="https://github.com/siberfaqih/"
             >
